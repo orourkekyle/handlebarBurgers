@@ -6,6 +6,7 @@ In this app, users can add any type of burger they want to the menu as well as d
 
 ## DEPLOYED LINK:
 Click URL to go to deployed application on Heroku:
+https://fierce-shore-62824.herokuapp.com/
 
 -----------------------------------------------------
 
