@@ -5,6 +5,7 @@ $(document).ready(function(){
     event.preventDefault();
     var id = $(this).data("id");
     var newDevoured = $(this).data("newdevoured");
+    console.log("Devour status: "+newDevoured);
 
     var newDevouredState = {
       devoured: newDevoured
@@ -29,7 +30,7 @@ $(document).ready(function(){
 
     var newBurger = {
       name: $("#ca").val().trim(),
-      sleepy: $("[name=devoured]:checked").val().trim()
+      devoured: $("[name=devoured]:checked").val().trim()
     };
 
     // Send the POST request.
